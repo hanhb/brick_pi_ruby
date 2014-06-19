@@ -3,6 +3,7 @@ module BrickPi
     SENSOR_TYPES = {
       touch: Native::TYPE_SENSOR_TOUCH,
       ultrasonic: Native::TYPE_SENSOR_ULTRASONIC_CONT,
+      pressure: Native::TYPE_SENSOR_PRESSURE,
       color: Native::TYPE_SENSOR_COLOR_FULL,
       color_red: Native::TYPE_SENSOR_COLOR_RED,
       color_green: Native::TYPE_SENSOR_COLOR_GREEN,
