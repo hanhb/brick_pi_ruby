@@ -95,6 +95,7 @@ void Init_native() {
     rb_define_const(Native, "PORT_4", INT2FIX(3));
     rb_define_const(Native, "US_PORT", INT2FIX(2));
     rb_define_const(Native, "TYPE_SENSOR_TOUCH", INT2FIX(32));
+    rb_define_const(Native, "TYPE_SENSOR_PRESSURE", INT2FIX(0));
     rb_define_const(Native, "TYPE_SENSOR_ULTRASONIC_CONT", INT2FIX(33));
     rb_define_const(Native, "TYPE_SENSOR_ULTRASONIC_SS", INT2FIX(34));
     rb_define_const(Native, "TYPE_SENSOR_COLOR_FULL", INT2FIX(36));
