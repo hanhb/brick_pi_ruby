@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'brick_pi/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "brick-pi"
+  spec.name          = "brick_pi"
   spec.version       = BrickPi::VERSION
   spec.authors       = ["Brandon Hays", "Charles Lowell"]
   spec.email         = ["brandon.hays@gmail.com"]
